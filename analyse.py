@@ -54,7 +54,7 @@ def centre(data, desired=0):
 
 filenames = glob.glob('../data/inflammation-*.csv')
 
-for file in filenames[:1]:
+for file in filenames[:3]:
     print(file)
     detect_problems(file)
     analyse(file)
