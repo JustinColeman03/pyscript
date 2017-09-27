@@ -8,7 +8,7 @@ print('Analyse My Data')
 #----------------------------------------------------------
 def analyse(filename):
     '''
-    here is the documentation string for analyse()
+    here is the documentation string for analyse() it is useful
     '''
     data = numpy.loadtxt(fname=filename, delimiter=',')
 
